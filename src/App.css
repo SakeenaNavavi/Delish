@@ -49,5 +49,10 @@ body{
   height: 40px;
   background: #6b2d22;
 }
+.card-img-top {
+  width: 75px;
+  height: 75px;
+}
+
 
 

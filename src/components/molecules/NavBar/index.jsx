@@ -18,14 +18,18 @@ const NavBar=()=>{
         <li class="nav-item">
           <a class="nav-link" style={{color:"white"}} href="reservation">Reservation</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" style={{color:"white"}} href="ContactUs">Contact Us</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" style={{color:"white"}} role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            User
+            Menu
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="customer">Customer</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="owner">Owner</a></li>
+            <li><a class="dropdown-item" href="Breakfast">Breakfast</a></li>
+            <li><a class="dropdown-item" href="Lunch">Lunch</a></li>
+            <li><a class="dropdown-item" href="Tea">Tea</a></li>
+            <li><a class="dropdown-item" href="Dinner">Dinner</a></li>
           </ul>
         </li>
         

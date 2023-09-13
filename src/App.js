@@ -7,6 +7,7 @@ import Layout from './pages/Layout';
 import Reservation from './pages/Reservation';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Footer from './components/molecules/Footer';
+import ContactUs from './pages/ContactUs';
 
 function App(){
   return (
@@ -19,6 +20,7 @@ function App(){
       <Route path="/" element={<Home />} />
         <Route path="/" element={<Layout/>}/>
         <Route path="Reservation" element={<Reservation />} />
+        <Route path="ContactUs" element={<ContactUs />} />
       </Routes>
       </BrowserRouter>
     </div>
