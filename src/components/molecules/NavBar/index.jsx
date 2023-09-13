@@ -28,7 +28,7 @@ const NavBar=()=>{
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="Breakfast">Breakfast</a></li>
             <li><a class="dropdown-item" href="Lunch">Lunch</a></li>
-            <li><a class="dropdown-item" href="Tea">Tea</a></li>
+            <li><a class="dropdown-item" href="Tea">Supper</a></li>
             <li><a class="dropdown-item" href="Dinner">Dinner</a></li>
           </ul>
         </li>
