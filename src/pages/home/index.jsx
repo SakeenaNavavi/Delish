@@ -1,5 +1,4 @@
 import NavBar from "../../components/molecules/NavBar";
-import './index.css'
 const Home=()=>{
     return(
         <div className="HomePagePicture">
