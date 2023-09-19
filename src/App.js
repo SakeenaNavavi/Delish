@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './style.css';
 import NavBar from './components/molecules/NavBar';
 import NavItems from './components/atoms/NavItems';
 import Home from './pages/home';
