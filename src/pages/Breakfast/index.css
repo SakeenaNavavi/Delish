@@ -1,0 +1,28 @@
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    background-color: brown;
+}
+@media(min-width: 600px){
+    .card{
+        width: 300;
+        height: 300;
+    }
+    
+}
+.card-img-top{
+  align-items: center;
+  width: 200px;
+  height:200px;
+}
+.Breakfast{
+    align-content: center;
+    background-color: brown;
+}
+  
+
+
+
+    
