@@ -37,7 +37,11 @@
   }
 }
 body{
+  
+  margin: 0;
+  padding: 0;
   background-color: #ffefd5;
+  color: #ffefd5; 
 }
 
 .footer{
