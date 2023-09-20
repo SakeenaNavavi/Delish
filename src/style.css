@@ -54,11 +54,15 @@
     padding-bottom: 120px !important;
     padding-top: 30px !important;
     padding-left: 20px;
+    color: #6b2d22;
+    scroll-behavior: smooth;
   }
   .home-about-section{
     position: relative;
     padding-bottom: 90px !important;
     padding-top: 70px !important;
+    color: #6b2d22;
+    scroll-behavior: smooth;
   }
   .home-about-social {
     text-align: center !important;
@@ -85,6 +89,23 @@
   .icon-colour {
     color: #6b2d22 !important;
   }
+  .w3-container{
+    padding-top: 50px !important;
+    padding-left: 50px !important;
+    padding-bottom: 40px !important;
+  }
+/* CSS for initial state (hidden) */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px); /* Optional: Move element down */
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* CSS for animated state (visible) */
+.animate-on-scroll.active {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
   
