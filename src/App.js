@@ -10,6 +10,8 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Footer from './components/molecules/Footer';
 import ContactUs from './pages/ContactUs';
 import Breakfast from './pages/Breakfast';
+import Lunch from './pages/Lunch';
+import Dinner from './pages/Dinner';
 
 function App(){
   return (
@@ -24,6 +26,8 @@ function App(){
         <Route path="Reservation" element={<Reservation />} />
         <Route path="ContactUs" element={<ContactUs />} />
         <Route path="Breakfast" element={<Breakfast />} />
+        <Route path="Lunch" element={<Lunch />} />
+        <Route path="Dinner" element={<Dinner />} />
       </Routes>
       </BrowserRouter>
     </div>
