@@ -28,9 +28,12 @@ const NavBar=()=>{
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="Breakfast">Breakfast</a></li>
             <li><a class="dropdown-item" href="Lunch">Lunch</a></li>
-            <li><a class="dropdown-item" href="Tea">Supper</a></li>
+            <li><a class="dropdown-item" href="Supper">Supper</a></li>
             <li><a class="dropdown-item" href="Dinner">Dinner</a></li>
           </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style={{color:"white"}} href="Packages">Packages</a>
         </li>
         
       </ul>

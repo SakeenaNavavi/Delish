@@ -1,0 +1,33 @@
+.card {
+    width: 86cap;
+    height: 300px;
+    background-color: rgb(152, 228, 228);
+  }
+  
+  .card-img-top {
+    width: 86cap;
+    height: 60cap;
+
+  }
+  
+  @media (min-width: 600px) {
+    .card {
+      width: 400px;
+      height: 400px;
+    }
+  
+    .card-img-top {
+      max-width: 800px;
+      max-height: 800px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .card {
+      width: 600px;
+      height: 600px;
+    }
+  }
+  
+
+  
