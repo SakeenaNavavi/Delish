@@ -106,6 +106,22 @@
   opacity: 1;
   transform: translateY(0);
 }
+.button{
+  color: #6b2d22;
+}
+.button :hover{
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(223, 129, 7, 0.561) !important;
+}
+.btn-custom{
+  align-content: center;
+  background-color: #6b2d22;
+  color: bisque;
+}
+.card-text{
+  font-size: medium;
+}
 
 
   

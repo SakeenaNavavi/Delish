@@ -1,11 +1,13 @@
 import NavBar from "../../components/molecules/NavBar";
 import './index.css';
 import './index1.jsx';
+import Particle from "../../components/particle";
 import Breakfast1 from "./index1.jsx";
 const Breakfast = () => {
     return (
       
         <section>
+          <Particle/>
         <div class="w3-container">
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -14,7 +16,7 @@ const Breakfast = () => {
       <div class="card-body">
         <h5 class="card-heading">Vegetable Noodles</h5>
         <p class="card-text">650 Rs</p>
-        <a href="#" class="btn btn-primary">Buy Now</a>
+        <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
       </div>
     </div>
   </div>
@@ -24,7 +26,7 @@ const Breakfast = () => {
       <div class="card-body">
         <h5 class="card-heading">Avacado Toast</h5>
         <p class="card-text">750 Rs</p>
-        <a href="#" class="btn btn-primary">Buy Now</a>
+        <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
       </div>
     </div>
   </div>
@@ -34,7 +36,7 @@ const Breakfast = () => {
       <div class="card-body">
         <h5 class="card-heading">Club Sandwitch</h5>
         <p class="card-text">450 Rs</p>
-        <a href="#" class="btn btn-primary">Buy Now</a>
+        <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
       </div>
     </div>
   </div>
@@ -44,7 +46,7 @@ const Breakfast = () => {
       <div class="card-body">
         <h5 class="card-heading">Garlic Bread</h5>
         <p class="card-text">650 Rs</p>
-        <a href="#" class="btn btn-primary">Buy Now</a>
+        <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
       </div>
     </div>
   </div>
@@ -54,7 +56,7 @@ const Breakfast = () => {
       <div class="card-body">
         <h5 class="card-heading">Chocolate Croissants</h5>
         <p class="card-text">340 Rs</p>
-        <a href="#" class="btn btn-primary">Buy Now</a>
+        <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
       </div>
     </div>
   </div>
@@ -64,7 +66,7 @@ const Breakfast = () => {
       <div class="card-body">
         <h5 class="card-heading">Mixed Noodles</h5>
         <p class="card-text">650 Rs</p>
-        <a href="#" class="btn btn-primary">Buy Now</a>
+        <div className="button"><a href="#" class="btn btn-custom" >Buy Now</a></div>
       </div>
     </div>
   </div>

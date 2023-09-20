@@ -10,7 +10,7 @@ const Breakfast1=()=>{
           <div class="card-body">
             <h5 class="card-heading">English Breakfast</h5>
             <p class="card-text">1500 Rs</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
           </div>
         </div>
       </div>
@@ -20,7 +20,7 @@ const Breakfast1=()=>{
           <div class="card-body">
             <h5 class="card-heading">Buns</h5>
             <p class="card-text">200 Rs</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@ const Breakfast1=()=>{
           <div class="card-body">
             <h5 class="card-heading">Pol Roti</h5>
             <p class="card-text">180 Rs</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ const Breakfast1=()=>{
           <div class="card-body">
             <h5 class="card-heading">Morning Coffee</h5>
             <p class="card-text">300 Rs</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ const Breakfast1=()=>{
           <div class="card-body">
             <h5 class="card-heading">Matcha Tea</h5>
             <p class="card-text">500 Rs</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@ const Breakfast1=()=>{
           <div class="card-body">
             <h5 class="card-heading">Fresh Orange juice</h5>
             <p class="card-text">360 Rs</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <div className="button"><a href="#" class="btn btn-custom">Buy Now</a></div>
           </div>
         </div>
       </div>
