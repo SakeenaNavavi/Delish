@@ -1,0 +1,30 @@
+.packagecard {
+    width: 86px;
+    height: 300px;
+    background-color: rgb(152, 228, 228);
+  }
+  
+  .packagecard-img-top {
+    width: 86px;
+    height: 60px;
+  }
+  
+  @media (min-width: 600px) {
+    .packagecard {
+      width: 400px;
+      height: 400px;
+    }
+  
+    .packagecard-img-top {
+      max-width: 800px;
+      max-height: 800px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .packagecard {
+      width: 600px;
+      height: 600px;
+    }
+  }
+  

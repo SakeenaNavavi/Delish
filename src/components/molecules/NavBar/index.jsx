@@ -32,6 +32,9 @@ const NavBar=()=>{
             <li><a class="dropdown-item" href="Dinner">Dinner</a></li>
           </ul>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" style={{color:"white"}} href="Packages">Packages</a>
+        </li>
         
       </ul>
       <form class="d-flex" role="search">
