@@ -11,6 +11,7 @@ import Footer from './components/molecules/Footer';
 import ContactUs from './pages/ContactUs';
 import Breakfast from './pages/Breakfast';
 import Lunch from './pages/Lunch';
+import Supper from './pages/Supper';
 import Dinner from './pages/Dinner';
 import Packages from './pages/Packages';
 
@@ -28,6 +29,7 @@ function App(){
         <Route path="ContactUs" element={<ContactUs />} />
         <Route path="Breakfast" element={<Breakfast />} />
         <Route path="Lunch" element={<Lunch />} />
+        <Route path="Supper" element={<Supper />} />
         <Route path="Dinner" element={<Dinner />} />
         <Route path="Packages" element={<Packages />} />
       </Routes>
