@@ -39,9 +39,10 @@ return(
 <div class="col">
 <div class="card">
 <div class="card-body">
-  <img src="https://www.foodandwine.com/thmb/srEHECIjjqIsJfKkhy-oiwcoZ4I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Wine-Guide-Beaujolais-FT-BLOG0722-2000-7f1cac81f5044d3cbfeac708b66c4bea.jpg" class="card-img-top" alt="..."/>
 
-    <h4 class="card-heading">Beaujolais Wine</h4>
+    
+  <img src="https://www.dryfarmwines.com/cdn/shop/files/2023_7_DFW_Highlight_Monteversa_JPEG-018_1.jpg?v=1691623111&width=1445" class="card-img-top" alt="..."/>
+    <h4 class="card-heading">Organic Wine</h4>
     <p class="card-text">5800 Rs</p>
     <a href="#" class="btn btn-custom">Buy Now</a>
   </div>
@@ -72,9 +73,9 @@ return(
 <div class="col">
 <div class="card">
 <div class="card-body">
-  <img src="https://www.worldtravelconnector.com/wp-content/uploads/2020/01/Traditional-foods-in-Italy_Gelato.jpg" class="card-img-top" alt="..."/>
+  <img src="https://gelateriamadeinitaly.com/wp-content/uploads/2015/08/blueberry_gelato.jpg" class="card-img-top" alt="..."/>
 
-    <h4 class="card-heading">Italian Gelato</h4>
+    <h4 class="card-heading">Blueberry Gelato</h4>
     <p class="card-text">1090 Rs</p>
     <a href="#" class="btn btn-custom">Buy Now</a>
   </div>
