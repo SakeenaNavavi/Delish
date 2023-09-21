@@ -1,30 +1,46 @@
-.packagecard {
-    width: 86px;
-    height: 300px;
-    background-color: rgb(152, 228, 228);
+.package-card {
+    width: 400px;
+    height: 250px;
+    background-color: burlywood;
   }
   
-  .packagecard-img-top {
-    width: 86px;
-    height: 60px;
-  }
+
   
   @media (min-width: 600px) {
-    .packagecard {
+    .package-card {
       width: 400px;
       height: 400px;
     }
   
-    .packagecard-img-top {
-      max-width: 800px;
-      max-height: 800px;
+    .package-img-top {
+      margin-left: 150px;
+      margin-top: 70px;
+      width: 300px;
+      height: 300px;
+
     }
   }
   
   @media (min-width: 900px) {
-    .packagecard {
+    .package-card {
       width: 600px;
       height: 600px;
     }
+  }
+  .package-body{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+  }
+  .package-heading{
+    text-align: center;
+
+
+  }
+  .package-text{
+    text-align: center;
+  }
+  .center-text{
+    text-align: center;
   }
   
