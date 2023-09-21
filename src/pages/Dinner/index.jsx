@@ -1,4 +1,4 @@
-import NavBar from "../../components/molecules/NavBar";
+
 import './index.css';
 import Dinner1 from './index1.jsx';
 const Dinner = () => {
@@ -57,7 +57,7 @@ const Dinner = () => {
       <img src= "https://recipeland.com/images/r/20864/319ff35d8006c60f0a1d_1024.jpg" class="card-img-top" alt="..."/>
 
         <h4 class="card-heading">Double Decker U.S. Beef Burger</h4>
-        <p class="card-text">340 Rs</p>
+        <p class="card-text">990 Rs</p>
         <a href="#" class="btn btn-custom">Buy Now</a>
       </div>
     </div>
@@ -68,7 +68,7 @@ const Dinner = () => {
       <img src="https://preview.redd.it/t5pnwvn5itg31.jpg?auto=webp&s=7189aa7de636698d066e114e360ef16e7a2bcef4" class="card-img-top" alt="..."/>
 
         <h4 class="card-heading">Bacon Cheeseburger w/ Friess</h4>
-        <p class="card-text">650 Rs</p>
+        <p class="card-text">1800 Rs</p>
         <a href="#" class="btn btn-custom">Buy Now</a>
       </div>
     </div>

@@ -54,7 +54,7 @@ const Lunch = () => {
       <img src= "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="..."/>
 
         <h4 class="card-heading">Naan Roti with butter chicken</h4>
-        <p class="card-text">550 Rs</p>
+        <p class="card-text">760 Rs</p>
         <a href="#" class="btn btn-custom">Buy Now</a>
       </div>
     </div>
