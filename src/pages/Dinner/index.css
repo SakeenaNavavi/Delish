@@ -21,3 +21,17 @@
     align-content: center;
     background-color: brown;
 }
+.btn-custom{
+    background-color: #6b2d22;
+    color: bisque;
+    border: #6b2d22;
+}
+.card-body{
+    background-color: #FFDAB9;
+}
+.card-text{
+    font-size: large;
+    color: whitesmoke;
+    background-color: crimson;
+  }
+  

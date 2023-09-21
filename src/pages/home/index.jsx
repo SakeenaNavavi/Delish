@@ -3,7 +3,6 @@ import React from "react";
 import Particle from "../../components/particle";
 import { Container, Row, Col } from "react-bootstrap";
 import Home1 from './index1.jsx';
-import bg_image from './bg_image.jpg';
 const Home=()=>{
     return(
         <section>
@@ -16,7 +15,7 @@ const Home=()=>{
               <h1 style={{ paddingBottom: 15, fontSize:70}} className="heading">
                 <strong>Welcome to Delish!{" "}</strong>
                 <span className="wave" role="img" aria-labelledby="wave">
-                  🍔🍟
+                  🍝🥂
                 </span>
               </h1>
 

@@ -47,14 +47,14 @@
   .home-section {
     position: relative;
     z-index: -1;
-    background-image:url(./pages/home/bg_image.jpg);
+    background-image:url(./pages/home/bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 120px !important;
     padding-top: 30px !important;
     padding-left: 20px;
-    color: #6b2d22;
+    color: #ffffff;
     scroll-behavior: smooth;
   }
   .home-about-section{
@@ -90,8 +90,8 @@
     color: #6b2d22 !important;
   }
   .w3-container{
-    padding-top: 50px !important;
-    padding-left: 50px !important;
+    padding-top: 30px !important;
+    padding-left: 30px !important;
     padding-bottom: 40px !important;
   }
 /* CSS for initial state (hidden) */
@@ -106,6 +106,27 @@
   opacity: 1;
   transform: translateY(0);
 }
-
-
+.contact-section{
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+.project-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+.center-image {
+  display: block; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+.card-body:hover{
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px #F08080 !important;
+}
   
