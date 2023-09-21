@@ -18,7 +18,7 @@ function App(){
 
       <div className="App">
       <NavBar/>
-      <Footer/>
+      
       <BrowserRouter>
       <Routes>
       <Route path="/" element={<Home />} />
@@ -30,8 +30,8 @@ function App(){
         <Route path="Dinner" element={<Dinner />} />
       </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
-
 
   );
 
