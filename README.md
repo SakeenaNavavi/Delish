@@ -2,19 +2,25 @@
 
 Welcome to the Delish Restaurant Website project! This website allows users to explore our restaurant's menu, make table reservations, check out our various packages, and contact us easily.
 
+  ![image](https://github.com/SakeenaNavavi/Delish/assets/140879723/626da5b9-85b6-4af5-a2d0-4fab25364606)
+
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
   ## Features
 - **Menu Pages:** Browse through our extensive menu for breakfast, lunch, supper, and dinner.
-
-  ![image](https://github.com/SakeenaNavavi/Delish/assets/140879723/626da5b9-85b6-4af5-a2d0-4fab25364606)
-
+  Breakfast Menu page:
+  ![image](https://github.com/SakeenaNavavi/Delish/assets/140879723/d34bdfc9-48f3-4b4f-9dfa-f90efefd09c4)
+  Lunch Menu page:
+  ![image](https://github.com/SakeenaNavavi/Delish/assets/140879723/93c25019-de6c-4c7d-bf25-8c8a41ddcedc)
+  Supper Menu page:
+  ![image](https://github.com/SakeenaNavavi/Delish/assets/140879723/7956978a-f3f8-4cb1-bfe8-c32cc68c3c5a)
+  Dinner Menu Page:
+  ![image](https://github.com/SakeenaNavavi/Delish/assets/140879723/8ae0ff77-8e16-42ab-a283-49ab998b4124)
+  
 
 - **Reservation:** Reserve a table at our restaurant for your desired date and time.
   
