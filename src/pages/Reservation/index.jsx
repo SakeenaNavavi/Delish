@@ -1,14 +1,13 @@
+import React from 'react';
 import './index.css';
-import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import Swal from 'sweetalert2';
 const Reservation=()=>{
-	const [showModal, setShowModal] = useState(false);
-	function closeModal() {
-		setShowModal(false);
-	  }
+
+  
 	const validateForm = () => {
+   
+
 		const firstName = document.getElementById('first_name').value;
 		const lastName = document.getElementById('last_name').value;
 		const phoneNumber = document.getElementById('phone_number').value;
@@ -38,16 +37,18 @@ const Reservation=()=>{
 			alert('Please fill out all fields.');
 			return false;
 		  }
-		setShowModal(true);
-		return false;
+      Swal.fire({
+        title: 'Delish',
+        text: "You've successfully booked a table at Delish! See you soon!", 
+      });
 
-		  
-  
-  return false;
+      return false;
+      
+
 		};
 
 	return(
-
+    
 		<div className="reservation">
 		<div class="reservation-container">
 			<form action="/submit-form" method="post" onSubmit={(e)=>{   
@@ -57,21 +58,6 @@ const Reservation=()=>{
             document.forms[0].submit();
 		  }
           }}>
-
-<div class="modal" id="successModal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Success!</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        You've successfully booked a table! See you soon!
-      </div>
-    </div>
-  </div>
-</div>
-
 			<h1 id="header_18" class="form-header" data-component="header">Reserve a Table</h1>
             <div id="subHeader_18" class="form-subHeader">Please fill the form below accurately to enable us serve you better!.. Thank You!</div><br/>
   <div class="form-group">
@@ -117,20 +103,9 @@ const Reservation=()=>{
     <input type="number" class="form-control" id="number_of_guests" name="number_of_guests" placeholder="Enter the number of guests"/>
   </div>
   <br/>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary" onClick={validateForm}>Submit</button>
 </form>
-{showModal && (
-          <div className="modal">
-            <div className="modal-content">
-              <span className="close" onClick={closeModal}>
-                &times;
-              </span>
-              <p>
-                You've successfully booked a table! See you soon!
-              </p>
-            </div>
-          </div>
-        )}
+
 		</div>
 		</div>
 	)
